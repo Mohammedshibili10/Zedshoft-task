@@ -12,13 +12,13 @@ export default function Signup() {
 
 
                     <div className="flex gap-3 mb-4">
-                        <button className="flex-1 flex justify-center items-center py-2 rounded-full border border-gray-300 hover:bg-gray-100 transition">
-                            <Facebook />
+                        <button className="flex-1 flex justify-center items-center py-2 rounded-full border border-gray-300 bg-blue-600  hover:bg-blue-500 transition">
+                            <Facebook className="text-white" />
                         </button>
-                        <button className="flex-1 flex justify-center items-center py-2 rounded-full border border-gray-300 hover:bg-gray-100 transition">
+                        <button className="flex-1 flex justify-center items-center py-2 rounded-full border border-gray-300 bg-black text-white hover:bg-gray-700 transition">
                             <Mail />
                         </button>
-                        <button className="flex-1 flex justify-center items-center py-2 rounded-full border border-gray-300 hover:bg-gray-100 transition">
+                        <button className="flex-1 flex justify-center items-center py-2 rounded-full border bg-green-500 text-white border-gray-300 hover:bg-green-400 transition">
                             <Phone />
                         </button>
                     </div>
