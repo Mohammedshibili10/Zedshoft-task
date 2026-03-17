@@ -9,7 +9,7 @@ export default function TaskBoard() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/todos?_limit=20")
+        fetch("https://jsonplaceholder.typicode.com/todos")
             .then((res) => res.json())
             .then((data) => {
                 setTasks(data);
